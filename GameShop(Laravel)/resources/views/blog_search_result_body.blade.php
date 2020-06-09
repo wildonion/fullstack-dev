@@ -1,0 +1,57 @@
+@extends('layouts.welcome')
+@section('content')
+@include('layouts.panelhead')
+  <div class="content">
+   <div class="container">
+     <div class="content-grids">
+       <div class="col-md-8 content-main">
+         <div class="content-grid"> 
+          @if(count($Blogs) != 0)
+	           @foreach ($Blogs as $blog)
+	            <div class="content-grid-info">
+				         <img src="/uploads/images/news/{{$blog->picture}}" 
+	                alt="{{$blog->title}}" width="669" height="320" class="img-responsive"/>
+	               <div class="post-info">
+	               <!-- ==================================================================== -->
+	                  <!-- if user's ip was for IR -->
+	                    <h4 dir="rtl"><a href="{{ url('blog/'.$blog->id.'/'. $blog->title) }}">{{str_replace('-', ' ', $blog->title)}}</a></h4>
+	                  <!-- if user's ip was foreign -->  
+	                    <!-- <h4><a href="{{ url('blog/'.$blog->id.'/'. $blog->titleF_User) }}">{{str_replace('-', ' ', $blog->titleF_User)}}</a></h4> -->
+	              <!-- ==================================================================== -->
+	               <h4>{{\Carbon\Carbon::parse($blog->created_at)->diffForHumans()}}</h4>
+	               <!-- ==================================================================== -->
+	                  <!-- if user's ip was for IR -->
+	                      <div dir="rtl">{!! \Illuminate\Support\Str::words($blog->description, 10,' ....') !!}</div>
+	                  <!-- if user's ip was foreign -->
+	                     <!-- <p>{!! \Illuminate\Support\Str::words($blog->descriptionF_User, 10,' ....') !!}</p> -->
+	               <!-- ==================================================================== -->
+	                      <!-- if user's ip was for IR -->
+	                    <a href="{{ url('blog/'.$blog->id.'/'. $blog->title) }}"><span></span>ادامه مطلب</a>
+	                      <!-- if user's ip was foreign -->
+	                  <!--  <a href="{{ url('blog/'.$blog->id.'/'. $blog->titleF_User) }}"><span></span>Read More</a> -->
+	               <!-- ==================================================================== -->
+	               </div>
+	           </div>
+	            @endforeach
+	            <div class="pagination pagination-sm">
+	               {{ $Blogs->links() }}
+	           </div>  
+	        @else
+	           <div class="content-grid-info">
+	             <!-- if user's ip was for IR -->
+	              <p dir="rtl">نتیجه ای برای <strong>{{$q}}</strong> یافت نشد</p>    
+	            <!-- if user's ip was foreign -->
+	            <!-- <p dir="ltr">No reult found for <strong>{{$q}}</strong></p> -->
+                <img src="/nfound.png" 
+                  alt="no_result_found" width="200" height="100" class="img-responsive"/>
+             </div>
+            @endif
+         </div>
+        </div>
+        <!-- ===================================================== -->
+        @include('right_panel')
+        <div class="clearfix"></div>
+      </div>
+    </div>
+</div>
+@endsection

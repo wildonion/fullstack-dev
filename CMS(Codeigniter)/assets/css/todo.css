@@ -1,0 +1,28 @@
+#responds{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#responds li {
+	list-style: none;
+	padding: 15px;
+	background: rgb(221, 240, 255);
+	margin-bottom: 5px;
+	border-radius: 5px;
+	max-width: 400px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+#responds li.sel {
+	background: rgb(255, 221, 221);
+}
+#responds li.st {
+	background: rgb(146, 185, 185);
+}
+
+.del_wrapper{float:right;}
+.content_wrapper {
+	max-width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
