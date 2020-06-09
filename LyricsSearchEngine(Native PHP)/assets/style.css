@@ -1,0 +1,54 @@
+input{
+  font-size: 12px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+input[type=text] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+	background: #ededed url(search-icon.png) no-repeat 9px center;
+  border:solid 1px #ccc;
+  padding:9px 10px 9px 32px;
+  width:100px;
+  -webkit-border-radius:10em;
+  -mox-border-radius:10em;
+  border-radius:10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+input[type=text]:focus{
+  width:300px;
+  outline:0;
+  background-color:#fff;
+  border-color:#6dcff6;
+  -webkit-box-shadow:0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow:0 0 5px rgba(109,207,246,.5);
+  box-shadow:0 0 5px rgba(109,207,246,.5);
+}
+
+form{
+
+  margin: 50px;
+  text-align: center;
+}
+body {
+  padding-top: 300px;
+}
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+body{
+  background: black;
+}
+
+svg{
+  width: 600px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}

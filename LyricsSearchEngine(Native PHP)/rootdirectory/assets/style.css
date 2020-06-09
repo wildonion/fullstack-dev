@@ -1,0 +1,39 @@
+.bs-example{
+		margin:20px;
+	}
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.example6 .navbar-brand{ 
+  background: url(admin.png) center / contain no-repeat;
+  width: 300px;
+}
+
+.brand-centered .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+.navbar-alignit .navbar-brand {
+  top: 50%;
+  display: block;
+  position: relative;
+  height: auto;
+  transform: translate(0,-50%);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.navbar-nav>li>.dropdown-menu {
+  z-index: 9999;
+}

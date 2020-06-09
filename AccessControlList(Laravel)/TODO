@@ -1,0 +1,26 @@
+@started(17-08-17 11:40)
+Build A Todo App With Vuejs:
+☐ BACK-END ISSUES: 
+  ✔ create the controller @done (17-08-17 12:09)
+  ✔ create the view (index.blade.php) @done (17-08-17 12:09)
+  ✔ create the migration file @done (17-08-17 12:09)
+  ✔ run the migration file @done (17-08-18 12:31)
+  ✔ create the model @done (17-08-18 12:34)
+  ✔ npm install @done (17-08-18 13:07)
+  ✔ npm run watch @done (17-08-18 13:07)
+☐ FRONT-END ISSUES:
+  ✔ start with Example.vue @done (17-08-18 15:16)
+  ✔ rename Example.vue component to Todo.vue component @done (17-08-20 10:51)
+  ☐ created date-time(ago)
+  ☐ updated date-time(ago)    
+  ☐ isDone
+  ☐ calender
+  ☐ simple nice front-end
+  ☐ emoji for adding new todo
+ 
+
+ 
+ 
+ 
+ 
+ 
