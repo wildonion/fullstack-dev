@@ -1,0 +1,215 @@
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_AD-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+[[WEB-APP]]
+  -LARAVEL && LUMEN (real-time tools => [vuejs, angularjs, reactjs&redux, stream, redis, pusher, echo, socket.io, axios])
+    #resources_1: use "npm install" and "npm run watch" and "php artisan serve" for laravel&vuejs projects
+    #resources_2: register in pusher site and setup ".env" and "broadcasting.php" and "bootstrap.js" files for laravel&pusher project keys
+    #resources_3: use "laravel new project_name" and "lumen new project_name" to create a fresh project
+    #resources_4: https://creator.ionic.io/app/dashboard/projects, use video tutorials in Variety folder
+    #resources_5: use youtube videos, docs in my phone(update laravel docs to 5.5), use laravel + ngrok and setup mysql password 
+    #resources_6: https://blog.tighten.co/adding-react-components-to-a-laravel-app, https://github.com/laracasts/PHP-Vars-To-Js-Transformer
+    #resources_7: https://scotch.io/tutorials/user-authorization-in-laravel-54-with-spatie-laravel-permission
+    #resources_8: use Realtime Message With Laravel And VueJS tutorial to build another run-time chatapp
+    #resources_9: https://www.laravel-angular.io/#/ => laravel angular material starter{PRO/DEV ONLY}
+    #resources_10: https://www.codetutorial.io/laravel-5-angularjs-tutorial/, use video tutorials in Variety folder
+    #resources_11: https://laravelvoyager.com/
+    #fixed_tools: laravel&pusher, laravel&vuejs, laravel&angular{see #resources_9_10}, laravel&lumen(RESTful api){also see #resources_1_2_3_5}
+    #UNKNOWN-TOOLS: gulp, bower, webpack, redux, grunt, guzzle, laravel-mix(bundling assets), Docker
+    #BROADCASTER-TOOLS: pusher, socket.io, redis
+    #FRONT-END[USER-INTERFACE]-TOOLS-WITH-LARAVEL5.5: Angularjs, Reactjs, Vuejs, jQueryMobile
+    #RESTFUL-API-TOOLS: lumen
+==*==*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*
+big projects[ALSO MAKE THEIR COURSE TO SELL!!]:
+     2-build a responsive self service system app => [real-time tools + #resources_1_2_3_11 + eloquent-relationships]
+     p2n:it's gonna be a run-time single page app with angularjs
+     3-build a simple app with ionic and laravel[TAKE IT EASY ;-)] => see #resources_4
+     4-build something with reactjs && redux[5.5LTS](a TODO/runtime application => youtube tutorials)
+     5-build a shop store/market[shopping cart](reserving train and bus tickets, reserving room of hotel, buying products) with a bank door 
+     p5n:LaravelShoppingcart + eloquent-relationships + real-time tools + broadcaster-tools + multiauth project
+     6-build a social network (ERMA_NET) => [laravel&vuejs + youtube downloaded tutorials(links.txt)]
+     7-cottages training app => [reply comment and multilingual functionallity(see the multilingual_SEO project) + eloquent-relationships]
+     8-shayan's friend project (a pro music site + real-time tools + eloquent-relationships)
+     9-build something like SHAREIT for web. Beside something like convert2mp3.net and online translator; a run-time app!
+     9-build my own tech (framework, my own chatapp like telegram web, package for laravel or something fresh, modular based webapp, wo CMS)
+     p9:wo app => (run-time blog/app){ #BSF_like stackoverflow/ponisha/unier/github/cloob + real-time tools + voyager + eloquent-relationships}
+     p9:wo shop => a shop for selling my courses and experiences about ApplicationDevelopment and other majors
+     p9:wo bank => something like bam with angularjs(private bam, corporative bam with ACL, strong registration system, handle all exceptions)
+     p9:wo bank => use materialize and bootstrap for its UI, use angular for dynamic pagination, use Multiauth projects for multiple users
+    10-create a FTP system + create based API app => help voyager
+==*==*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*
+tiny projects[ALSO MAKE THEIR COURSE TO SELL!!]:
+     reply comment => create a dynamic place(EX: a modal) for adding text for a specific comment(store comment_id + reply_msg + name in separate table)
+     reply comment => how to create a reply comment for a comment in laravel?! | nested reply comment!
+     dynamic header(route) => see voyager and asgardCMS project also see below for extra desc
+     VideoBlog site(like youtube and aparat template => see ResponsiveDesign folder for tutors):
+     	like,
+        send sms to user after his login&&logout,
+        visitors, 
+	token instead of id in url, 
+	a playlist panel of random or same(in tags) video,
+        automatic play next video, 
+	tags && SEO,
+	upload with ajax, 
+	comment with reply comment and emoji(see above),
+        video description
+	download video feature,
+	live-search for searching videos,
+        load-more for all videos, 
+        bank-door for buying some video
+     ponisha projects(make yourself as a freelanser) 
+     make shayan's blog course
+     https://github.com/tomiiide/laravel-vue-comment
+     https://github.com/jahvi/chatty
+     https://shareurcodes.com/blog/laravel%20datatables%20server%20side%20processing
+     https://github.com/codecasts/spa-starter-kit
+     Read these CMS's code and build something with them:
+        Voyager framework => build code blog app with it, extend it{validation for user input, google_analytics_client_id}
+        AsgardCMS(https://asgardcms.com)  
+        pyroCMS(https://pyrocms.com/documentation/pyrocms/v3.1)
+        OctoberCMS
+     rebuild shayan's blog(web.php for issues)
+==*==*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*
+THE IDEA BEHIND THE DYNAMIC HEADER:
+
+DB:
+  $table->string('title')->unique();
+  $table->string('url')->unique();
+  $table->string('page_name')->unique()->default('404'); // remember create a 404 page with ckeditor! 
+                                                        // will update once you create the page  
+                                                        // add .blade.php prefix to the name of the page
+  $table->string('page_content')->default('content goes here...'); // use ckeditor for all page contents
+  $table->string('url_token', 6)->unique(); // $header = new Header; $header->url_token = str_random(6);
+  $table->string('meta_desc');
+  $table->string('meta_key');
+  $table->integer('creating_page_status')->default(0); // will set to 1 once you create the header title, url and etc...    
+                             // it will show you the ckeditor to create the content of your page for each created header
+VIEW:
+  @foreach(headers as header) 
+    <a href="{{ url('h/'.header->url) }}">{{header->title}}</a>
+  @endforeach
+ROUTING:
+  Route::get('h/{url?}', Name_Of_Your_Controller@LoadHeader);
+CONTROLLER:
+  public function LoadHeader($url = null){
+    if($url){
+        $header = Header::where('url', $url)->first();
+        if($header->page_name != '404'){
+	 // use current route function or view_name to 
+         // set the title of the page according 
+         // to name of the header!
+            return view($header->page_name, compact(header)); // header->meta_key, header->meta_desc, header->title
+      } else{
+           // abort the mission
+            return view($header->page_name);
+      }
+    }
+  } 
+==*==*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*
+HOW TO UPLOAD LARAVEL PROJECT:
+
+in public_html:
+____________________________________________________________________________________
+1.extract your project
+____________________________________________________________________________________
+2.cut all files in public folder and paste them in root directory(public_html)
+____________________________________________________________________________________
+3.remove public folder
+____________________________________________________________________________________
+4.open index.php and edit these lines of codes like so:
+if you want to put your app in another folder like blog folder change like this
+require __DIR__.'/blog/bootstrap/autoload.php';
+$app = require_once __DIR__.'/blog/bootstrap/app.php';
+in .htaccess file:
+after RewriteEngine On add this:
+RewriteBase /
+if that was not the case then do like so:
+require __DIR__.'/bootstrap/autoload.php';
+$app = require_once __DIR__.'/bootstrap/app.php';
+____________________________________________________________________________________
+5.change permisions for index.php to 744 or 777
+==*==*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*
+HOW TO USE RANDOM STRING FOR URL INSTEAD OF ID:
+
+IN-YOUR-MIGRATION-FILE:
+  $table->string('video_token', 6)->unique();
+IN-YOUR-CONTROLLER:
+  $video = new Video;
+  $video->video_token = str_random(6);
+USAGE:
+  IN-YOUR-ROUTE:
+  Route::get('blog/{token}/{title}', 'Welcome\GameShopController@showsinglenews')->middleware('web');
+  Route::get('game/{token}/{title}', 'Welcome\GameShopController@showsinglegame')->middleware('web');
+  
+  IN-YOUR-VIEW:
+  <a href="{{ url('blog/'.$blog->token.'/'. $blog->title) }}">SHOW ME!</a>
+==*==*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*
+HOW TO USE EMOJIONE IN LARAVEL:
+
+1- go to https://github.com/christofferok/laravel-emojione
+2- follow the instructions to install laravel-emojione
+3- go to https://demos.emojione.com/latest/autocomplete.html
+4- follow the instructions to create a shortname autocomplete functionality for your emojis
+5- link these css files:
+    <link rel="stylesheet" href="/vendor/emojione/css/emojione.min.css"/>
+    <link rel="stylesheet" href="/css/emoji_autocomplete.css"> => you must create this file in step 4
+6- add these script tags:
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/1.8.0/jquery.textcomplete.min.js" 
+    integrity="sha256-LVEfx05sOY34HXGS/RbJHlA2K9wH21TTM7OfrCZRR4o=" crossorigin="anonymous"></script>
+    <script src="/vendor/emojione/lib/js/emojione.min.js"></script> => if you want to use javascript format
+    <script src="/js/emoji_autocomplete.js"></script> => you must create this file in step 4
+7- In your view where you display your comments you can use @emojione($comment->content) 
+
+
+NOTE: hint => in comment box type ':' followed by a few letters to search for 
+              an emoji based on the shortname and related keywords.
+_-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-__-_-
+UNISHARP LARAVEL-CKEDITOR AND FILE-MANAGER: 
+
+                https://github.com/UniSharp/laravel-ckeditor 
+                http://unisharp.github.io/laravel-filemanager/
+                https://unisharp.github.io/
+==*==*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*=*==*
+
+
+1.find your composer bin by type :
+find . -type d | grep .composer
+-----------------------------------------------------
+2.nano ~/.bashrc
+put to the end of the file this:
+alias laravel='~/.config/composer/vendor/bin/laravel'
+-----------------------------------------------------
+3.close your terminal and open another one and type:
+laravel 
+
+
+
+
+now you can create your laravel projects
+Enjoy!
+
+
+*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==
+https://www.youtube.com/watch?v=zXtgFR0OdxU&list=PLZAiN3wmUtzV1eI7mAxERQaE2LkyA5Nh6
+https://www.youtube.com/watch?v=hA8ODholdyE&list=PLWrTy7mdWLT2_PaNZwAsp0dhIyJrZxgTK
+https://www.youtube.com/watch?v=56TizEw2LgI&list=PL55RiY5tL51qUXDyBqx0mKVOhLNFwwxvH
+https://www.youtube.com/watch?v=56TizEw2LgI&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp
+https://www.youtube.com/watch?v=cEYLjsEKyy8&list=PLfdtiltiRHWGGxaR6uFtwZnnbcXqyq8JD
+https://www.youtube.com/watch?v=4uajiXW5R3o&index=2&list=PL55RiY5tL51rrgq6xi67Mc6cwOHXw_nB1
+https://www.youtube.com/watch?v=X_bBP0Ty2uQ&list=PLWrTy7mdWLT2_PaNZwAsp0dhIyJrZxgTK&index=22
+https://www.youtube.com/watch?v=HWlakkNKJko&list=PLYp_Kd32XvcqLzY4k2EYHkKfNjAzj1LBE
+https://www.youtube.com/watch?v=iXKp4Pk3ic0&list=PLYp_Kd32XvcpWDXPc0nFTRWWdK8N4yyLP
+https://www.youtube.com/watch?v=nfgpi1vAR38&list=PLYp_Kd32XvcoGTzZKGJMFecPplgLk4GnD
+https://www.youtube.com/watch?v=zIFJr2qidYk&list=PLe8xEIkK4cBPKysHjrCRitsR2AxDVo1C2
+https://www.youtube.com/watch?v=_dd4-HEPejU&list=PL55RiY5tL51oloSGk5XdO2MGjPqc0BxGV
+https://www.youtube.com/watch?v=cr70iMzZxaM&list=PLncHdglgqDf1AqSsRTJyOJm7v0wWx-zPM
+https://www.youtube.com/watch?v=fZKaq623y38&list=PLQDnxXqV213JJFtDaG0aE9vqvp6Wm7nBg
+https://www.youtube.com/watch?v=vu7l574xVao&list=PL55RiY5tL51rrgq6xi67Mc6cwOHXw_nB1
+https://www.youtube.com/watch?v=QxJJbA_VxDY&list=PLdgnFBfcK3Q1BWKj96xJIGVLzB75H3OhF
+https://www.youtube.com/watch?v=yB_nvx3NJ5k&list=PL9q0eNDLXnF2jcO32a88_MMWg26bPI03X
+https://www.youtube.com/watch?v=BMjyMJ4VN-A&list=PLid95FTT3ehi1gtICaGsLfFXGAbVhNg84
+https://www.youtube.com/watch?v=BMjyMJ4VN-A&list=PL4Ak3EbDmt0r-nBZ4nn3kvuW84nU4ayo5
+https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/videos?sort=p&view=0&shelf_id=1
+https://www.youtube.com/channel/UC6kwT7-jjZHHF1s7vCfg2CA
+https://www.youtube.com/channel/UCE661ndvGE2bRqlVRRXDJVQ
+http://www.tutdl.ir/blog/1396/03/21/دانلود-آموزش-full-stack-web-apps-with-meteor-and-react/
+https://github.com/manoharkhadka1/laravel-chat-app
+https://www.udemy.com/draft/1690044/?siteID=VkwVKCHWj2A-Mwt2KJ2KsEWsCjWwFlbv.w&LSNPUBID=VkwVKCHWj2A
